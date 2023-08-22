@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: darkgray;
+}
+#text{
+    padding: 0;
+    background-position-x: 0%; 
+    font-family:Helvetica;
+    margin: 0;
+    padding: 0; 
+    font-size: 20px;
+    letter-spacing: -0.3px;
+    background-image: linear-gradient(75deg,rgba(51,51,51,1) 0%,rgba(51,51,51,1) 33.33%,rgba(51,51,51,0) 66.67%,rgba(51,51,51,0) 100%);
+    background-size: 300% 100%;
+    background-position-x: 0%; /*把值设为100%即可让文字一段一段慢慢地显示出来*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 1.8s background-position-x ease-in-out ;  
+}
+#text:hover{
+    background-position-x: 0%;
+} 
+
+.particular{
+    padding: 0;
+    background-position-x: 0%; 
+    font-family:Helvetica;
+    margin: 0;
+    padding: 0; 
+    font-size: 20px;
+    letter-spacing: -0.3px;
+    background-image: linear-gradient(75deg,rgba(240,240,240,1) 0%,rgba(240,240,240,1) 33.33%,rgba(240,240,240,0) 66.67%,rgba(240,240,240,0) 100%);
+    background-size: 300% 100%;
+    background-position-x: 0%; /*把值设为100%即可让文字一段一段慢慢地显示出来*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 1.8s background-position-x ease-in-out ;  
+}
+
+
+#text:hover{
+    background-position-x: 0%;
+} 
+.particular:hover{
+    background-position-x: 0%;
+} 
+
+
+/*背景毛玻璃特效*/
+#BackGroundImage{
+    height: 2180px;
+    background-image: url(../images/韩江远景1.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+
+#backdrop{
+    background-color: transparent;
+    display:flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 1512.6;
+    height: 2180px;
+    backdrop-filter: blur(8px);
+}
+
+
+/*城市介绍div大小*/
+ #ah1{
+    float: left;
+    width: 610px;
+    height: auto;
+    padding-top: 50px;
+    margin-top: 0px;
+    margin-left: 150px;
+    background-color: transparent;
+} 
+
+
+
+#ah2{
+    float: right;
+    width: 510px;
+    height: auto;
+    padding-top: 50px;
+    margin-top: 0px;
+    margin-left: 150px;
+    background-color: transparent;
+}
+
+
+#ah1 p{
+    font-size: 25px;
+    line-height: 1.5;
+}
+#ah2 p{
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+
+#ah1 h1{
+    font-size: 36px;
+}
+#ah2 h1{
+    font-size: 36px;
+    text-align: center;
+}

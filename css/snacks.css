@@ -1,0 +1,223 @@
+body{
+    background-color: #f0f0f0;
+ }
+#allslides{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin-top: 0px;
+}
+ul.slides{
+    position: relative;
+    width: 870px;
+    height: 610px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(100, 102, 104); 
+    overflow: hidden;
+}
+li.slide{
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: helvetica;
+    font-size: 120px;
+    color: aliceblue;
+    transition: .5s transform ease-in-out;
+}
+.slide:nth-of-type(1){
+   background-image: url(../images/snacks/IMG_0445.jpeg);
+   background-size: cover;
+   background-position: center center;
+}
+.slide:nth-of-type(2){
+    background-image: url(../images/snacks/IMG_0446.jpeg);
+    left: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.slide:nth-of-type(3){
+    background-image: url(../images/snacks/IMG_0457.jpeg);
+    left: 200%;
+    background-size: cover;
+    background-position: center center;
+}
+.slide:nth-of-type(4){
+    background-image: url(../images/snacks/IMG_0448.jpeg);
+    left: 300%;
+    background-size: cover;
+    background-position: center center;
+ }
+ .slide:nth-of-type(5){
+    background-image: url(../images/snacks/IMG_0449.jpeg);
+     left: 400%;
+     background-size: cover;
+     background-position: center center;
+ }
+ .slide:nth-of-type(6){
+    background-image: url(../images/snacks/IMG_0450.jpeg);
+     left: 500%;
+     background-size: cover;
+     background-position: center center;
+ }
+ .slide:nth-of-type(7){
+    background-image: url(../images/snacks/IMG_0451.jpeg);
+    left: 600%;
+    background-size: cover;
+    background-position: center center;
+ }
+ .slide:nth-of-type(8){
+    background-image: url(../images/snacks/IMG_0452.jpeg);
+     left: 700%;
+     background-size: cover;
+     background-position: center center;
+ }
+ .slide:nth-of-type(9){
+    background-image: url(../images/snacks/IMG_0453.jpeg);
+     left: 800%;
+     background-size: cover;
+     background-position: center center;
+ }
+ .slide:nth-of-type(10){
+    background-image: url(../images/snacks/IMG_0454.jpeg);
+    left: 900%;
+    background-size: cover;
+    background-position: center center;
+ }
+ .slide:nth-of-type(11){
+    background-image: url(../images/snacks/IMG_0455.jpeg);
+     left: 1000%;
+     background-size: cover;
+     background-position: center center;
+ }
+ .slide:nth-of-type(12){
+    background-image: url(../images/snacks/IMG_0456.jpeg);
+     left: 1100%;
+     background-size: cover;
+     background-position: center center;
+ }
+
+input[type="radio"]{
+    position: relative;
+    z-index: 100;
+    display: none;    
+}
+.controls-visible{
+    position: absolute;
+    width: 100%;
+    bottom: 12px;
+    text-align: center;
+}
+.controls-visible label{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin: 0 3px;
+    border: 2px solid #fff;
+}
+.slides input[type="radio"]:nth-of-type(1):checked ~ .controls-visible label:nth-of-type(1){
+    background-color: #333;
+}
+.slides input[type="radio"]:nth-of-type(2):checked ~ .controls-visible label:nth-of-type(2){
+    background-color: #333;
+}
+.slides input[type="radio"]:nth-of-type(3):checked ~ .controls-visible  label:nth-of-type(3){
+    background-color: #333;
+}
+.slides input[type="radio"]:nth-of-type(4):checked ~ .controls-visible label:nth-of-type(4){
+    background-color: #333;
+}
+.slides input[type="radio"]:nth-of-type(5):checked ~ .controls-visible label:nth-of-type(5){
+    background-color: #333;
+}
+.slides input[type="radio"]:nth-of-type(6):checked ~ .controls-visible  label:nth-of-type(6){
+    background-color: #333;
+}
+.slides input[type="radio"]:nth-of-type(7):checked ~ .controls-visible label:nth-of-type(7){
+    background-color: #333;
+}
+.slides input[type="radio"]:nth-of-type(8):checked ~ .controls-visible label:nth-of-type(8){
+    background-color: #333;
+}
+.slides input[type="radio"]:nth-of-type(9):checked ~ .controls-visible  label:nth-of-type(9){
+    background-color: #333;
+}
+.slides input[type="radio"]:nth-of-type(10):checked ~ .controls-visible label:nth-of-type(10){
+    background-color: #333;
+}
+.slides input[type="radio"]:nth-of-type(11):checked ~ .controls-visible label:nth-of-type(11){
+    background-color: #333;
+}
+.slides input[type="radio"]:nth-of-type(12):checked ~ .controls-visible  label:nth-of-type(12){
+    background-color: #333;
+}
+
+
+.slides input[type="radio"]:nth-of-type(1):checked ~ .slide{
+    transform: translateX(0%)
+}
+.slides input[type="radio"]:nth-of-type(2):checked ~ .slide{
+    transform: translateX(-100%)
+}
+.slides input[type="radio"]:nth-of-type(3):checked ~ .slide{
+    transform: translateX(-200%)
+}
+.slides input[type="radio"]:nth-of-type(4):checked ~ .slide{
+    transform: translateX(-300%)
+}
+.slides input[type="radio"]:nth-of-type(5):checked ~ .slide{
+    transform: translateX(-400%)
+}
+.slides input[type="radio"]:nth-of-type(6):checked ~ .slide{
+    transform: translateX(-500%)
+}
+.slides input[type="radio"]:nth-of-type(7):checked ~ .slide{
+    transform: translateX(-600%)
+}
+.slides input[type="radio"]:nth-of-type(8):checked ~ .slide{
+    transform: translateX(-700%)
+}
+.slides input[type="radio"]:nth-of-type(9):checked ~ .slide{
+    transform: translateX(-800%)
+}
+.slides input[type="radio"]:nth-of-type(10):checked ~ .slide{
+    transform: translateX(-900%)
+}
+.slides input[type="radio"]:nth-of-type(11):checked ~ .slide{
+    transform: translateX(-1000%)
+}
+.slides input[type="radio"]:nth-of-type(12):checked ~ .slide{
+    transform: translateX(-1100%)
+}
+/*特色小食div美化*/
+#theme{
+    margin: 20px;
+}
+#hh1{
+    text-align: center;
+    font-size: 45px;
+    background-image: linear-gradient(to right,#2c3409,#647615,#c1e32c);
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+ }
+ /*版权条改背景色*/
+ #copyright p{
+    background-color: #ffffff;
+ }
+
+
+
+
+

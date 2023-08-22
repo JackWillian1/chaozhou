@@ -1,0 +1,193 @@
+ *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none
+ }
+
+
+
+/* 对放网站Logo盒子和搜索框盒子、search-logo盒子的大盒子美化  */
+ .bigdiv{
+    background-color:#f0f0f0f0;
+    height: 92px;
+}
+/* 对放网站Logo的盒子美化 */
+.logobox{
+   float: left;
+   height: 87px;
+   width: 90px;
+   margin-top: 3px;
+   margin-left: 184px;
+}
+/* 对网站Logo图片调整大小 */
+#logoimage{
+    height: 85px;
+}
+/* 对放登录注册的盒子美化 */
+#login-box{
+    background-color:#f0f0f0f0;
+    text-align: center;
+    float: right;
+    width: 50px;
+    height: 21px;
+    margin-top: 8px;
+    margin-right: 15px; 
+}
+/* 对登录二字进行美化*/
+#login{
+    color:#000000;
+}
+/* 对放网站搜索框和search-logo的盒子美化 */
+#search{
+    float: right;
+    background-color:#000000;
+    height: 27px;
+    margin: 19px;
+    border: 0;
+}
+/* 对网站搜索框美化 */
+#textarea{
+    float: left;
+    height: 20px;
+    width: 460px;
+    border: 0;
+    margin: 1px;
+    padding-left: 20px;
+    padding-top: 5.5px;
+    resize: none;
+}
+/* 对button按钮调整大小 */
+ #button1{
+    float: right;
+    border: 0;
+    height: 25.5px;
+    margin: 1px;
+    margin-left: 0.2px;
+}
+/* 调整搜索logo图片的大小 */
+#searchlogoimg{
+    height: 25.5px;
+}
+
+
+
+
+
+/*导航栏的美化*/
+ul{
+    background-color:#ffffff;
+    height: 64px;
+}
+/*导航栏所有头div的美化*/
+.first {
+    display: inline-block;/*转为同一行内的块状div*/
+    background-color:#ffffff;
+    height: 24px;
+    width: 131.812px;
+    padding: 10px 5px;
+    margin-top: 10px;
+    margin-top: 10px;
+}  
+/*为了使字体居中显示*/
+#demo{
+    color: #000000;
+    text-align: center;
+    }
+#demo a{
+   color: #000000;
+}
+/*让潮州简介4个字在网站logo正下方，只设置第一个div的margin-left，不影响其他div*/
+#div1{
+    margin-left: 184px;
+}
+/* 下拉菜单美化 */
+.dropdown-content {
+     display: none; /*不显示div内的内容*/
+     position: absolute; /*不加absolute的话，鼠标移动的话，div会跳动，受到123行代码display：block的影响*/ 
+     z-index: 1; 
+     min-width: 175px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   
+     padding-left: 18px;
+     margin-top: 13.1px;
+     margin-left: -2px;
+     background-color: #ffffff;
+}   
+/* 下拉菜单里面a标签的美化 */
+.dropdown-content a{
+    display: block; 
+    color: #000000;
+    padding: 12px 16px;
+}
+/*移动鼠标触发下拉菜单*/
+.dropdown-content a:hove{background-color: #f0f0f0f0}  
+.first:hover .dropdown-content {
+    display: block;
+}    
+/*移动鼠标触发颜色*/
+#demo .dropbtn:hover { 
+    background-color: #ffffff;
+    color: #db3b00;
+}   
+.qwe:hover { 
+    color: #db3b00;
+}  
+#login-box a:hover{
+    color: #db3b00;
+}
+
+
+
+
+
+/*背景视频的美化*/
+.hero {
+    display: flex;/*弹性容器，用于实现灵活的布局*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(0,0,0,0.5);
+    color: rgb(73, 25, 229);
+    margin-bottom: 5px;
+    position: relative;
+    overflow: hidden;
+    min-height: 75vh;
+}
+.video-bg {
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
+
+ /*底部宣传栏分享给你的好友样式美化*/
+h2 {
+    display: block;
+    height: 50px;
+    font-size: 30px;
+}
+/*微信抖音share logo位置和div高度*/  
+.sharelogo{
+    text-align: center;
+    height: 100px;
+}
+#copyright{
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+
+
+/* 整个页面总体的缩放 */
+#all{
+    width: 1519.2px;
+    position: absolute;
+    left: 50%; 
+    margin-left: -759.6px; 
+}
+
+

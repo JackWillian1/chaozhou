@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>潮州旅游网</title>
+  <link rel="stylesheet" href="../css/eightspot.css">
+<link rel="stylesheet" href="../css/index.css">
+
+</head>
+<body onload="setInterval (startMove,3000);">
+  <!-- 确保页面可以正常缩放 -->
+  <div id="all">
+    <hr>
+        <!-- 使button按钮能顺利提交 -->
+        <form action="">
+        <!-- 放网站Logo盒子和搜索框盒子、search-logo盒子的大盒子 -->
+            <div class="bigdiv">
+        <!-- 放网站Logo的盒子 -->
+                <div class="logobox">
+                  <img src="../images/Logo1.png" alt="" id="logoimage" >
+                </div> 
+        <!-- 放登录的盒子 -->
+                <div id="login-box">
+                  <a href="#" id="login">
+                  登录
+                  </a>
+                </div>
+        <!-- 放注册的盒子 -->
+                <div id="login-box">
+                  <a href="#" id="login">
+                  注册
+                  </a>
+                </div>
+        <!-- 放网站搜索框和search-logo的盒子 -->
+                <div id="search">
+                <!-- 网站搜索框 -->
+                  <textarea id="textarea" placeholder="请输入关键词"></textarea>
+                  <button type="submit" id="button1">
+                    <img src="../images/搜索Logo.png" alt="" id="searchlogoimg">
+                  </button>  
+                </div>
+            </div>
+        </form>
+
+    <!-- 导航栏 -->
+        <ul >
+          <div class="first" id="div1">
+            <!-- 加下面此div是为了使字体居中显示 -->
+            <div id="demo">
+              <a href="../index.html" class="dropbtn ">潮州简介
+              </a>
+            </div>
+            <div class="dropdown-content">
+              <a href="../HTML/introduce of chaozhou.html" class="qwe">城市介绍</a>
+              <a href="../HTML/introduce of chaozhou.html" class="qwe">潮州人民</a>
+            </div>
+          </div>
+    
+          <div class="first">
+            <div id="demo">
+                <a href="./eightspot.html" class="dropbtn ">八大景点</a>
+            </div>
+            <div class="dropdown-content">
+              <a href="../HTML/spot1.html" class="qwe">广济桥</a>
+              <a href="../HTML/spot2.html" class="qwe">牌坊街</a>
+              <a href="../HTML/spot3.html" class="qwe">凤凰洲公园</a>
+              <a href="../HTML/spot4.html" class="qwe">韩文公祠</a>
+              <a href="../HTML/spot5.html" class="qwe">西湖公园</a>
+              <a href="../HTML/spot6.html" class="qwe">开元寺</a>
+              <a href="../HTML/spot7.html" class="qwe">淡浮院</a>
+              <a href="../HTML/spot8.html" class="qwe">许驸马府</a>    
+            </div>
+          </div>
+          
+          <div class="first" >
+            <div id="demo">
+              <a href="../HTML/custom.html" class="dropbtn ">民俗活动</a>
+            </div>
+          </div>
+    
+          <div class="first" >
+            <div id="demo">
+              <a href="#" class="dropbtn">地方美食</a>
+            </div>
+            <div class="dropdown-content">
+              <a href="../HTML/snacks.html" class="qwe">特色小食</a>
+              <a href="../HTML/TwentyFood.html" class="qwe">20道名菜</a>
+            </div>
+          </div>
+    
+          <div class="first" >
+            <div id="demo">
+              <a href="#" class="dropbtn ">住宿推荐</a>
+            </div>
+            <div class="dropdown-content">
+              <a href="../HTML/BNB.html" class="qwe">民宿</a>
+              <a href="#" class="qwe">酒店(暂未开放)</a>
+              <a href="#" class="qwe">公寓(暂未开放)</a>
+            </div>
+          </div>
+
+          <div class="first" >
+            <div id="demo">
+              <a href="../HTML/scenic spot page.html" class="dropbtn ">旅游感受</a>
+            </div>
+          </div>
+        </ul>  
+
+    <!-- 八大景点 -->
+    <div id="eightspot">
+      <div class="card">
+        <img src="../images/广济桥.JPG">
+        <h4>广济桥</h4>
+        <div class="content-wrapper">
+          <div class="content">
+            <p>潮州广济桥是位于中国广东省潮州市的一座古老石拱桥，也是潮州市的标志性建筑之一。该桥跨越潮州的汕江，连接着城市的两岸，具有重要的交通和历史文化价值。</p>
+            <br>
+            <p>广济桥建于明代万历年间（1573-1620年），是一座以石拱为主体结构的桥梁。桥长约503米，宽7.8米，共有38个拱洞，其中主拱洞高约10.6米，宽约9.8米，两侧辅拱洞高度递减。广济桥的拱洞采用了优美的曲线设计，整座桥梁显得古朴典雅。</p>
+            <br>
+            <p>广济桥是中国现存的古代石拱桥中规模最大、保存最完整的之一，也是中国四大古桥之一。它是中国古代桥梁工艺的杰作，展示了中国古代工程技术的辉煌成就。同时，广济桥还承载着丰富的历史文化内涵，成为潮州市的文化地标和旅游景点之一，吸引着众多游客前来观赏和探索。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../images/牌坊街.jpg">
+        <h4>牌坊街</h4>
+        <div class="content-wrapper">
+          <div class="content">
+            <p>潮州牌坊街是位于中国广东省潮州市的一条历史文化街区，以其独特的牌坊建筑和古朴的风貌而闻名。这条街道是潮州市保存最完整、最具特色的传统牌坊街之一，也是潮州市的旅游景点之一。</p>
+            <br>
+            <p>潮州牌坊街位于潮州市区的中心地带，沿着南澳河两岸延伸。这条街道上保留了大量的明清时期的牌坊建筑，形成了一条雄伟壮观的牌坊廊道。这些牌坊多为石质结构，设计精美，有的上面还雕刻着精细的花纹和文字。每个牌坊都有其独特的名字和寓意。</p>
+            <p>大统元帅牌坊：表示崇拜和纪念伟大的元帅，体现对英雄人物的崇敬和赞颂。</p>
+            <p>仁义牌坊：强调仁爱和正义的重要性，鼓励人们以仁爱和正义的态度对待他人，体现社会道德和伦理观念。</p>
+            <p>文武牌坊：代表文化和武功并重，强调文化和军事的平衡发展，扬示潮州在文化和军事领域的成就。</p>
+            <p>孝义牌坊：强调孝顺父母和尊重家庭价值观念的重要性，鼓励人们传承孝道美德。</p>
+            <br>
+            <p>在潮州牌坊街上，游客可以欣赏到悠久的历史文化，感受到传统建筑的魅力。街道两旁还有一些传统的商铺和小吃摊位，提供当地特色的美食和手工艺品。在节假日和特殊的庆典活动中，潮州牌坊街也会举行各种文化活动和表演，吸引着大量游客和当地居民前来观赏和参与。</p>
+            <br>
+            <p>在潮州牌坊街上，游客可以欣赏到悠久的历史文化，感受到传统建筑的魅力。街道两旁还有一些传统的商铺和小吃摊位，提供当地特色的美食和手工艺品。在节假日和特殊的庆典活动中，潮州牌坊街也会举行各种文化活动和表演，吸引着大量游客和当地居民前来观赏和参与。</p>
+            <br>
+            <p>潮州牌坊街作为潮州市的历史文化遗产，展示了潮州丰富的历史传统和文化底蕴。它是游览潮州的重要景点之一，也是了解潮州历史文化的窗口之一。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../images/凤凰洲公园.PNG">
+        <h4>凤凰洲公园</h4>
+        <div class="content-wrapper">
+          <div class="content">
+            <p>潮州凤凰洲公园（Chaozhou Fenghuangzhou Park）位于中国广东省潮州市，是一座以自然景观和文化景点为主题的城市公园。该公园占地面积广阔，拥有丰富的植被、湖泊和休闲设施，是潮州市居民和游客休闲娱乐的热门去处。</p>
+            <br>
+            <p>凤凰洲公园以其美丽的自然风光而闻名，拥有广阔的湖泊和花草树木，为人们提供了一个舒适宜人的环境。公园内的湖泊清澈见底，水面上常见各种水鸟和鱼类。游客可以在湖边漫步，欣赏自然景色，或者租船在湖上划船，感受宁静和放松。</p>
+            <br>
+            <p>除了自然景观，凤凰洲公园还有一些文化景点值得一看。其中最著名的是凤凰塔（Fenghuang Tower），这座高约54米的塔楼是公园的标志性建筑之一。登上塔顶，可以俯瞰公园的美景和周围的城市风光。</p>
+            <br>
+            <p>公园内还有一些景点和活动区域，如游乐设施、花坛、健身区和露天剧场。这些设施和区域为游客提供了多样化的娱乐和休闲选择。</p>
+            <br>
+            <p>潮州凤凰洲公园是一个集自然、文化和休闲为一体的综合性公园，为潮州市民提供了一个放松身心、欣赏美景和享受户外活动的场所。无论是散步漫游，还是与家人朋友一同游玩，都能在这里找到乐趣和舒适。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../images/韩文公祠.JPG">
+        <h4>韩文公祠</h4>
+        <div class="content-wrapper">
+          <div class="content">
+            <p>韩文公祠（Hanwen Gong Ci）是位于中国广东省潮州市的一座历史古迹，也是潮州市的重要文化遗产之一。这座祠堂是为了纪念和崇拜潮州著名的文学家韩愈而建立的。</p>
+            <br>
+            <p>韩文公祠建于明代，主要由祠堂和庭院组成。祠堂内供奉着韩愈的神像和相关的文物，如书法作品和纪念品等。在祠堂周围的庭院里，有着绿树成荫、花草丛生的景观，为参观者提供了一个宁静而美丽的环境。</p>
+            <br>
+            <p>韩愈（768年-824年）是唐代著名的文学家、思想家和政治家，被誉为“韩文公”。他的文学作品以力求真实和直抒胸臆著称，对后世文学产生了深远的影响。他的诗歌、散文和评论文学等作品多次体现了对社会道德和政治理念的思考和表达。因此，韩文公祠成为了潮州市民纪念和崇拜这位伟大文学家的场所。</p>
+            <br>
+            <p>韩文公祠也是一座重要的文化景点，吸引着众多游客和文化爱好者前来参观。在特定的节日和纪念活动中，祠堂还会举行一些文化表演和传统仪式，让人们更深入地了解韩愈的文学成就和他对潮州文化的贡献。</p>
+            <br>
+            <p>韩文公祠作为潮州市的文化遗产，体现了对韩愈及其文化遗产的尊崇和传承。它是了解潮州文化和历史的重要窗口之一，也是对韩愈文学思想的纪念和致敬之地。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../images/潮州市西湖公园.PNG">
+        <h4>西湖公园</h4>
+        <div class="content-wrapper">
+          <div class="content">
+            <p>潮州市西湖公园（Chaoshan Xihu Park）位于中国广东省潮州市中心，是一座美丽的城市公园和风景区。该公园以其宜人的湖泊、丰富的植被和历史文化景点而著名，是潮州市民休闲娱乐和游客观光的热门去处。</p>
+            <br>
+            <p>潮州市西湖公园是一个宽广的绿地，有着广阔的湖泊和蜿蜒的小径。湖水清澈见底，周围的绿树环抱，营造出一片宁静和静谧的氛围。在湖上，游客可以租船划水，欣赏湖景和周围的自然风光。</p>
+            <br>
+            <p>公园内的植被丰富多样，有各种树木、花草和草坪。这里是一个理想的地方，供人们散步、野餐和休闲活动。公园还设有儿童游乐区、健身设施和露天舞台等设施，满足不同人群的需求。</p>
+            <br>
+            <p>除了自然景观，潮州市西湖公园还有一些历史文化景点。其中最著名的是岛上的光禄寺，这座古老的寺庙建于明代，是潮州市的重要佛教场所之一。寺庙内有精美的建筑和寺庙文物，吸引着众多信徒和游客前来参观和朝拜。</p>
+            <br>
+            <p>潮州市西湖公园以其优美的自然环境和丰富的文化资源，成为潮州市民和游客放松身心、欣赏美景和体验文化的理想场所。在这里，人们可以与家人朋友一起享受大自然的美丽，感受潮州的宜居和宜游之处。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../images/潮州开元寺.PNG">
+        <h4>开元寺</h4>
+        <div class="content-wrapper">
+          <div class="content">
+            <p>潮州市开元寺（Chaoshan Kaiyuan Temple）是位于中国广东省潮州市的一座古老佛教寺庙，也是潮州地区最重要的宗教建筑之一。该寺庙建于唐代，具有悠久的历史和丰富的文化内涵。</p>
+            <br>
+            <p>开元寺以其壮丽的建筑和深厚的佛教底蕴而闻名。寺庙的主体建筑包括山门、大雄宝殿、藏经楼和钟楼等。这些建筑均采用传统的中国古代建筑风格，拥有精美的木雕、石雕和彩绘装饰，展示了中国古代建筑艺术的精髓。</p>
+            <br>
+            <p>寺庙内供奉着佛教的主要菩萨和佛像，吸引着众多信徒和游客前来参拜和朝拜。开元寺也是潮州地区佛教活动的重要场所，定期举行各种佛教仪式和法会。</p>
+            <br>
+            <p>开元寺周围环境优美，有绿树成荫和花草香气。寺庙内有修行院和禅室，提供给修行者和信徒们一个宁静和静心的场所。</p>
+            <br>
+            <p>作为潮州地区的文化遗产，开元寺见证了潮州古代文明的发展和佛教文化的传承。无论是对佛教信仰感兴趣的游客，还是追寻历史文化的学者，开元寺都是一个值得参观的地方。它展示了中国古代建筑艺术和佛教文化的精髓，也是人们寻求宁静和心灵抚慰的场所。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../images/潮州市淡浮院.PNG">
+        <h4>淡浮院</h4>
+        <div class="content-wrapper">
+          <div class="content">
+            <p>淡浮院（Danfu Monastery）是位于中国广东省潮州市的一座佛教寺庙，也是潮州市的重要文化景点之一。该寺庙建于唐代，历史悠久，被誉为潮州佛教的重要场所。</p>
+            <br>
+            <p>淡浮院以其古老的建筑和深厚的佛教文化内涵而闻名。寺庙内主要有山门、大雄宝殿、观音阁等建筑。这些建筑采用传统的中国古代建筑风格，结合了木雕、石雕和彩绘装饰，展示了优美的艺术工艺和佛教建筑的独特魅力。</p>
+            <br>
+            <p>淡浮院是一座重要的佛教修行地。寺庙内供奉着众多佛像和菩萨，吸引着众多信徒和游客前来参拜和朝拜。这里也是潮州地区佛教活动的重要场所，定期举行佛教法会和禅修活动。</p>
+            <br>
+            <p>寺庙周围环境幽静，被自然风光所环抱。大片的绿树和花草围绕着寺庙，营造出宁静和和谐的氛围。这里也是修行者和信徒们寻求宁静和心灵抚慰的场所。</p>
+            <br>
+            <p>淡浮院作为潮州佛教文化的重要遗产，展示了潮州古代文明和佛教文化的传承。无论是对佛教信仰感兴趣的游客，还是寻求宁静与内心平静的人们，淡浮院都是一个值得参观和探索的地方。在这里，人们可以欣赏到古老而庄严的建筑，感受到宗教信仰的力量，以及在宁静的环境中寻求内心安宁的体验。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../images/潮州驸马府.PNG">
+        <h4>驸马府</h4>
+        <div class="content-wrapper">
+          <div class="content">
+            <p>潮州许驸马府（Xuchu Mansion）是潮州市的一处历史建筑，也是潮州文化的重要遗产之一。它是北宋时期著名的许驸马（许珏）的府邸，即是北宋英宗皇帝之女德安公主和驸马许珏的府第，位于潮州市区中山路葡萄巷东府埕4号。</p>
+            <br>
+            <p>许驸马府是一座典型的南方传统建筑，充满北宋的建筑风格。府邸占地广阔，分为前后两院，包括正厅、客厅、花园和其他附属建筑。府邸的建筑结构和装饰精美，展示了当时的建筑艺术和生活风貌。</p>
+            <br>
+            <p>许驸马府还设有一座纪念馆，陈列了许驸马的生平事迹和家族历史。参观者可以了解许驸马作为潮州的重要历史人物的贡献和影响。此外，府邸内还展示了许驸马家族的文物和艺术品，如字画、家具和陶瓷等，为游客提供了对当时社会文化的深入了解</p>
+            <br>
+            <p>作为潮州的历史名人府邸，许驸马府吸引了许多游客和学者前来参观和研究。它不仅展示了潮州古代建筑的风貌和技艺，还向人们展示了潮州历史和文化的瑰宝。参观许驸马府可以带您回到历史的长河中，感受潮州古代的繁荣和魅力。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 使卡片能够正常点击 -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/script.js"></script>
+
+    <!-- 底部宣传栏 -->
+    <div class="share">
+      <h2 style="text-align:center">分享给更多的好友知道</h2>
+    </div>
+    <div class="sharelogo" >
+      <span class="classspan" >
+        <a href="https://wx.qq.com/">
+          <img src="../images/微信LOGO5.png" alt="微信">
+        </a>     
+      </span>
+      <span class="classspan">
+        <a href="https://www.douyin.com/">
+          <img src="../images/抖音logo.png" alt="抖音">
+        </a>      
+      </span>
+    </div> 
+  </div>
+</body>
+</html>

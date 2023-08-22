@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>潮州旅游网</title>
+  <link rel="stylesheet" href="../css/eightspot.css">
+<link rel="stylesheet" href="../css/index.css">
+
+</head>
+<body onload="setInterval (startMove,3000);">
+    <div id="all">
+        <hr>
+        <!-- 使button按钮能顺利提交 -->
+        <form action="">
+        <!-- 放网站Logo盒子和搜索框盒子、search-logo盒子的大盒子 -->
+            <div class="bigdiv">
+        <!-- 放网站Logo的盒子 -->
+                <div class="logobox">
+                    <img src="../images/Logo1.png" alt="" id="logoimage" >
+                </div> 
+        <!-- 放登录的盒子 -->
+                <div id="login-box">
+                    <a href="#" id="login">
+                        登录
+                    </a>
+                </div>
+        <!-- 放注册的盒子 -->
+                <div id="login-box">
+                    <a href="#" id="login">
+                        注册
+                    </a>
+                </div>
+        <!-- 放网站搜索框和search-logo的盒子 -->
+                <div id="search">
+                    <!-- 网站搜索框 -->
+                    <textarea id="textarea" placeholder="请输入关键词">
+
+                    </textarea>
+                    <button type="submit" id="button1">
+                        <img src="../images/搜索Logo.png" alt="" id="searchlogoimg">
+                    </button>  
+                </div>
+            </div>
+        </form>
+    
+        <!-- 导航栏 -->
+        <ul >
+            <div class="first" id="div1">
+                <!-- 加下面此div是为了使字体居中显示 -->
+                <div id="demo">
+                    <a href="../index.html" class="dropbtn ">
+                        潮州简介
+                    </a>
+                </div>
+                <div class="dropdown-content">
+                    <a href="../HTML/introduce of chaozhou.html" class="qwe">
+                        城市介绍
+                    </a>
+                    <a href="../HTML/introduce of chaozhou.html" class="qwe">
+                        潮州人民
+                    </a>
+                </div>
+            </div>
+
+            <div class="first">
+                <div id="demo">
+                    <a href="./eightspot.html" class="dropbtn ">八大景点</a>
+                </div>
+                <div class="dropdown-content">
+                    <a href="../HTML/spot1.html" class="qwe">广济桥</a>
+                    <a href="../HTML/spot2.html" class="qwe">牌坊街</a>
+                    <a href="../HTML/spot3.html" class="qwe">凤凰洲公园</a>
+                    <a href="../HTML/spot4.html" class="qwe">韩文公祠</a>
+                    <a href="../HTML/spot5.html" class="qwe">西湖公园</a>
+                    <a href="../HTML/spot6.html" class="qwe">开元寺</a>
+                    <a href="../HTML/spot7.html" class="qwe">淡浮院</a>
+                    <a href="../HTML/spot8.html" class="qwe">许驸马府</a>    
+                </div>
+            </div>
+            
+            <div class="first" >
+                <div id="demo">
+                    <a href="../HTML/custom.html" class="dropbtn ">民俗活动</a>
+                </div>
+            </div>
+
+            <div class="first" >
+                <div id="demo">
+                    <a href="#" class="dropbtn">地方美食</a>
+                </div>
+                <div class="dropdown-content">
+                    <a href="../HTML/snacks.html" class="qwe">特色小食</a>
+                    <a href="../HTML/TwentyFood.html" class="qwe">20道名菜</a>
+                </div>
+            </div>
+
+            <div class="first" >
+                <div id="demo">
+                    <a href="#" class="dropbtn ">住宿推荐</a>
+                </div>
+                <div class="dropdown-content">
+                    <a href="../HTML/BNB.html" class="qwe">民宿</a>
+                    <a href="#" class="qwe">酒店(暂未开放)</a>
+                    <a href="#" class="qwe">公寓(暂未开放)</a>
+                </div>
+            </div>
+
+            <div class="first" >
+                <div id="demo">
+                    <a href="../HTML/scenic spot page.html" class="dropbtn ">旅游感受</a>
+                </div>
+            </div>
+        </ul>  
+
+        <!-- 内容 -->
+        <div class="card">
+            <img src="../images/广济桥.JPG">
+            <h4>广济桥</h4>
+            <div class="content-wrapper">
+                <div class="content">
+                    <p>潮州广济桥是位于中国广东省潮州市的一座古老石拱桥，也是潮州市的标志性建筑之一。该桥跨越潮州的汕江，连接着城市的两岸，具有重要的交通和历史文化价值。</p>
+                    <br>
+                    <p>广济桥建于明代万历年间（1573-1620年），是一座以石拱为主体结构的桥梁。桥长约503米，宽7.8米，共有38个拱洞，其中主拱洞高约10.6米，宽约9.8米，两侧辅拱洞高度递减。广济桥的拱洞采用了优美的曲线设计，整座桥梁显得古朴典雅。</p>
+                    <br>
+                    <p>广济桥是中国现存的古代石拱桥中规模最大、保存最完整的之一，也是中国四大古桥之一。它是中国古代桥梁工艺的杰作，展示了中国古代工程技术的辉煌成就。同时，广济桥还承载着丰富的历史文化内涵，成为潮州市的文化地标和旅游景点之一，吸引着众多游客前来观赏和探索。</p>
+                </div>
+            </div>
+        </div>
+        <script src="../js/jquery.js"></script>
+        <script src="../js/script.js"></script>
+
+        <!-- 底部宣传栏 -->
+        <div class="share">
+            <h2 style="text-align:center">分享给更多的好友知道</h2>
+        </div>
+        <div class="sharelogo" >
+            <span class="classspan" >
+                <a href="https://wx.qq.com/">
+                    <img src="../images/微信LOGO5.png" alt="微信">
+                </a>     
+            </span>
+
+            <span class="classspan">
+                <a href="https://www.douyin.com/">
+                    <img src="../images/抖音logo.png" alt="抖音">
+                </a>      
+            </span>
+        </div>
+    </div>
+</body>
+</html>

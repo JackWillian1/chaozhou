@@ -1,0 +1,302 @@
+#muzi{
+    margin-top:25px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom:15px;
+    padding: 0px;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: aliceblue; 
+    position: relative;
+}
+
+#muzi::after{
+    content:'美团：木子民宿';
+    color: transparent;
+    position: absolute;
+    -webkit-clip-path: ellipse(50px 50px at 0% 50%);
+    clip-path: ellipse(50px 50px at 0% 50%);
+    animation: spotlight 5s infinite;
+    background-image: url(../images/BNB/solen-feyissa-s_cUCiqrYo0-unsplash.jpg);
+    background-size: 55%; 
+    background-position: center center;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+@keyframes spotlight{
+    0%{
+        -webkit-clip-path: ellipse(50px 50px at 0% 50%);
+            clip-path: ellipse(50px 50px at 0% 50%);
+    }
+    50%{
+        -webkit-clip-path: ellipse(50px 50px at 100% 50%);
+            clip-path: ellipse(50px 50px at 100% 50%);
+    }
+    100%{
+        -webkit-clip-path: ellipse(50px 50px at 0% 50%);
+            clip-path: ellipse(50px 50px at 0% 50%);
+    }
+}
+.BNBalldiv1 div{
+    display: inline-block;  
+    border-radius: 1rem;
+}
+body{
+    width: 1519.2px;
+    background-color: #434242;
+}
+
+#BNBdiv1{
+    margin-top: 5px;
+    background-color: aquamarine;
+    width: 380px;
+    height: 320px;
+    margin-left: 50px; 
+    background-image: url(../images/BNB/1\ \(1\).JPG);
+    background-size: cover;
+    background-position: center center;
+  
+}
+#BNBdiv2{
+    margin-top: 5px;
+    background-color: aquamarine;
+    width: 380px;
+    height: 320px;
+    background-image: url(../images/BNB/1\ \(8\).JPG);
+    background-size: cover;
+    background-position: center center;
+ 
+}
+#BNBdiv3{
+    margin-top: 5px;
+    width: 500px;
+    height: 320px;
+    background-color: black;
+    background-image: url(../images/BNB/1\ \(7\).JPG);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.BNBalldiv2 div{
+    display: inline-block;   
+    border-radius: 1rem;
+}
+#BNBdiv4{
+    background-color: aquamarine;
+    width: 380px;
+    height: 320px;
+    margin-left: 50px;
+    background-image: url(../images/BNB/1\ \(4\).JPG);
+    background-size: cover;
+    background-position: center center;
+}
+#BNBdiv6{
+    background-color: aquamarine;
+    width: 380px;
+    height: 320px;
+    background-image: url(../images/BNB/1\ \(5\).JPG);
+    background-size: cover;
+    background-position: center center;
+}
+#BNBdiv5{
+    width: 500px;
+    height: 320px;
+    background-color: black;
+    background-image: url(../images/BNB/1\ \(6\).JPG);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+.BNBalldiv3 div{
+    display: inline-block;   
+    border-radius: 1rem;
+}
+#BNBdiv7{
+    background-color: aquamarine;
+    width: 631.5px;
+    height: 520px;
+    margin-left: 50px;
+    background-image: url(../images/BNB/1\ \(9\).JPG);
+    background-size: cover;
+    background-position: center center;
+}
+#BNBdiv8{
+    background-color: aquamarine;
+    width: 631.5px;
+    height: 520px;
+    background-image: url(../images/BNB/1\ \(10\).JPG);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+.BNBalldiv4 div{
+    display: inline-block;   
+    border-radius: 1rem;
+}
+#BNBdiv9{
+    background-color: aquamarine;
+    width: 250.2px;
+    height: 182px;
+    margin-left: 50px;
+    background-image: url(../images/BNB/1\ \(16\).JPG);
+    background-size: cover;
+    background-position: center center;
+}
+#BNBdiv10{
+    background-color: aquamarine;
+    width: 250.2px;
+    height: 182px;
+    background-image: url(../images/BNB/1\ \(17\).JPG);
+    background-size: cover;
+    background-position: center center;
+}
+#BNBdiv11{
+    background-color: aquamarine;
+    width: 250.2px;
+    height: 182px;
+    background-image: url(../images/BNB/1\ \(15\).JPG);
+    background-size: cover;
+    background-position: center center;
+}
+#BNBdiv12{
+    background-color: aquamarine;
+    width: 250.2px;
+    height: 182px;
+    background-image: url(../images/BNB/1\ \(19\).JPG);
+    background-size: cover;
+    background-position: center center;
+}
+#BNBdiv13{
+    background-color: aquamarine;
+    width: 250.2px;
+    height: 182px;
+    background-image: url(../images/BNB/1\ \(20\).JPG);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+.BNBalldiv5 div{
+    display: inline-block;   
+    border-radius: 1rem;
+}
+#BNBdiv14{
+    background-color: aquamarine;
+    width: 601.5px;
+    height: 502px;
+    margin-left: 50px;
+    background-image: url(../images/BNB/1\ \(21\).JPG);
+    background-size: cover;
+    background-position: center center;
+}
+#BNBdiv15{
+    background-color:transparent;
+    margin-left: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    width: 661.5px;
+    height: 502px;
+    background-size: cover;
+    background-position: center center; 
+}
+#BNBdiv15 div{ 
+    border: 0;
+    margin: 0;
+    padding:0;
+    display: inline-block;
+    background-color: brown;
+    width: 328.2px;
+    height: 249.1px;
+    background-size: cover;
+    background-position: center center; 
+}
+#BNBdiv15d1{ 
+    background-image: url(../images/BNB/1\ \(25\).JPG);
+}
+#BNBdiv15d2{ 
+    background-image: url(../images/BNB/1\ \(24\).JPG);
+}
+#BNBdiv15d3{ 
+    background-image: url(../images/BNB/1\ \(23\).JPG);
+}
+#BNBdiv15d4{ 
+    background-image: url(../images/BNB/1\ \(22\).JPG);
+}
+
+
+
+.BNBalldiv6 div{
+    display: inline-block;
+    border-radius: 1rem;
+}
+#BNBdiv16{
+    margin-bottom: 120px;
+    margin-left: 85px;
+    width: 470px;
+    height: 240px;
+    background-size: cover;
+    background-position: center center; 
+    transition:all.25s linear;/* 过渡效果*/ 
+}
+#BNBdiv17{
+    background-color: aquamarine;
+    margin-left: 240px;
+    padding: 0;
+    width: 450px;
+    height:500px;
+    background-image: url(../images/BNB/vx.JPG);
+    background-size: cover;
+    background-position: center center;
+}
+
+#p1{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 80px;
+    width: 470px;
+    font-size: 18px;
+    float: left;
+    clear: both;/*清除浮动*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+#p2{
+    height: 80px;
+    width: 470px;
+    float: left;
+    clear: both;/*清除浮动*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.BNB{
+    margin-left: 65px;
+}
+
+#BNBdiv16 p{
+      color:#ffff;
+      font-size: 18px;
+      font-weight:bold;
+      text-shadow:1px 1px 2px #000;/*设置字体阴影*/ 
+      transition: all .25s linear;/*过渡*/
+}
+#BNBdiv16:hover{transform:translateY(-1px);/*变形*/
+    box-shadow: 2px 2px 10px 2px #808080;/*设置阴影*/
+}
+#BNBdiv16:hover>p{font-size:25px;}

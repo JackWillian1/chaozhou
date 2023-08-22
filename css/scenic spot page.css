@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 评论区位置布局 */
+.comment{
+    clear: both;
+    text-align: center;
+    height: auto;
+    padding:0 0 5px 0;
+    margin-top: 20px;
+    font-size: 24px;
+    color:#f0f0f0f0;
+}
+#textareatwo{
+    resize: none;
+    height: 200px;
+    width: 768px;
+    margin: 0 383.2px;
+    background-color: #f0f0f0f0;
+    font-size: 20px;
+    text-indent: 2em;/*无法删除2个空格*/
+}
+
+.b1 {
+    margin: 0 0 0 1064px;
+    width: 42px;
+}
+.b2{
+    width: 42px;
+}
+/*welcome美化1*/
+#hh1{
+    text-align: center;
+    font-size: 45px;
+    /* color: #556411; */
+    background-image: linear-gradient(to right,#2c3409,#647615,#c1e32c);
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+ }
+
+
+
+/*轮播图*/
+#outer{width: 800px;height: 450px;
+    border: solid 0px red;margin: 0 auto;
+    border-radius: 1rem;
+   }
+#main {width: 800px;height: 450px;overflow: hidden;
+    position: absolute;
+   }
+#spot {width: 800px;height: 450px;}
+#box{margin: 0;padding: 0;list-style: none;
+    position: absolute;top: 0px;left: 0px;
+    width: 3200px;height: 450px;
+    background-clip:text;
+    -webkit-background-clip:text;
+   }
+#box img{
+    border-radius:3.165956rem;
+   } 
+ul li {list-style: none; float: left;}
+#prev { width: 40px;height: 60px;
+    background-color: rgba(160,220,240,0.8);
+    font-size: 40px;font-weight: bold;
+    position: absolute;left: 10px;
+    top: 45%; z-index: 100;text-align:center;
+    line-height: 60px;display: none;
+  }
+#prev:hover {display:block; }
+#next { width: 40px;height: 60px;
+    background-color: rgba(160,220,240,0.8);
+    font-size: 40px;font-weight: bold;
+    position: absolute;right: 10px;
+    top: 45%; z-index: 100;text-align:center;
+    line-height: 60px;display: none;
+  }
+#next:hover {display:block;}
+
+#audi{
+   margin-top: 5px;
+   text-align: center;
+
+}
+#wenxin{
+    color: crimson;
+    text-align: center;
+}
+
+#all{
+    background-image: linear-gradient(to bottom,#ffffff,#75807E,#EBFFFC,#3B403F,#D3E6E3
+    );
+}
+
+
